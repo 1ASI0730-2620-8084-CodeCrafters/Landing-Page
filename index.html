@@ -41,6 +41,7 @@
             <a href="#how-it-works" data-i18n="nav.how">How it works</a>
             <a href="#segments" data-i18n="nav.segments">Who it is for</a>
             <a href="#product" data-i18n="nav.product">The product</a>
+            <a href="#contact" data-i18n="nav.contact">Contact</a>
             <div class="language-switch" role="group" aria-label="Language">
                 <button type="button" data-language="en" aria-pressed="true">EN</button>
                 <button type="button" data-language="es" aria-pressed="false">ES</button>
@@ -200,6 +201,40 @@
         </div>
     </section>
 
+    <section class="section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact">
+            <div class="stack">
+                <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+                <h2 id="contact-title" data-i18n="contact.title">Tell us about your distribution</h2>
+                <p class="lead" data-i18n="contact.lead">Leave your details and the CodeCrafters team will get in touch to show you how BottleTrack fits your routes.</p>
+            </div>
+            <form class="card contact__form" data-contact-form>
+                <div class="field">
+                    <label for="contact-name" data-i18n="contact.name">Full name</label>
+                    <input class="input" id="contact-name" name="name" type="text" autocomplete="name" required>
+                </div>
+                <div class="field">
+                    <label for="contact-company" data-i18n="contact.company">Company</label>
+                    <input class="input" id="contact-company" name="company" type="text" autocomplete="organization" required>
+                </div>
+                <div class="field">
+                    <label for="contact-segment" data-i18n="contact.segment">I am a</label>
+                    <select class="input" id="contact-segment" name="segment" required>
+                        <option value="distributor" data-i18n="contact.segment.distributor">Beverage distributor</option>
+                        <option value="supervisor" data-i18n="contact.segment.supervisor">Fleet supervisor</option>
+                        <option value="delivery-point" data-i18n="contact.segment.deliveryPoint">Corner store or minimarket</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="contact-message" data-i18n="contact.message">Message</label>
+                    <textarea class="input" id="contact-message" name="message" rows="4" required></textarea>
+                </div>
+                <button class="button button--primary" type="submit" data-i18n="contact.submit">Send message</button>
+                <p class="contact__status" role="status" data-contact-status hidden data-i18n="contact.sent">Thank you. The team will contact you soon.</p>
+            </form>
+        </div>
+    </section>
+
 </main>
 
 <footer class="site-footer">
@@ -214,7 +249,15 @@
         <nav class="site-footer__nav" aria-label="Footer">
             <a href="#features" data-i18n="nav.features">Features</a>
             <a href="#segments" data-i18n="nav.segments">Who it is for</a>
+            <a href="#contact" data-i18n="nav.contact">Contact</a>
             <a href="terms-of-service.html" data-i18n="footer.terms">Terms and conditions of service</a>
+        </nav>
+        <nav class="site-footer__nav" aria-labelledby="footer-social-title">
+            <p class="site-footer__title" id="footer-social-title" data-i18n="footer.follow">Follow us</p>
+            <a href="https://www.linkedin.com/company/codecrafters-bottletrack" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://www.instagram.com/bottletrack.pe" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.facebook.com/bottletrack.pe" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://github.com/1ASI0730-2620-8084-CodeCrafters" target="_blank" rel="noopener">GitHub</a>
         </nav>
     </div>
     <div class="container site-footer__legal">
