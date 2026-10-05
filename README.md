@@ -39,7 +39,7 @@ Open `index.html` directly in a browser, or serve the folder with any static ser
 
 ## Deployment
 
-Published on GitHub Pages from the `main` branch.
+Published on Netlify at https://1asi0730-2620-8084-codecrafters.netlify.app/ from the `main` branch. Netlify publishes a new version after every integration into `main`.
 
 The calls to action of each target segment point to the web application deployed on Vercel at https://frontend-web-aplication.vercel.app: logistics supervisors go to `/monitoring`, corner stores and minimarkets to `/tracking` and distribution managers to `/analytics`.
 
