@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
     <title>BottleTrack | Bottled beverage transport tracking and IoT monitoring</title>
     <meta name="description" content="BottleTrack lets beverage distributors follow every route in real time, monitor cargo with IoT sensors and report transport incidents with evidence.">
     <meta name="keywords" content="beverage logistics, fleet tracking, IoT monitoring, cold chain, delivery incidents, transport management">
@@ -40,8 +41,8 @@
             <a href="#features" data-i18n="nav.features">Features</a>
             <a href="#how-it-works" data-i18n="nav.how">How it works</a>
             <a href="#segments" data-i18n="nav.segments">Who it is for</a>
-            <a href="#product-video" data-i18n="nav.product">The product</a>
-            <a href="#team" data-i18n="nav.team">The team</a>
+            <a href="#product" data-i18n="nav.product">The product</a>
+            <a href="#contact" data-i18n="nav.contact">Contact</a>
             <div class="language-switch" role="group" aria-label="Language">
                 <button type="button" data-language="en" aria-pressed="true">EN</button>
                 <button type="button" data-language="es" aria-pressed="false">ES</button>
@@ -129,7 +130,7 @@
                 </article>
                 <article class="card">
                     <h3 data-i18n="features.incidents.title">Incident reporting with evidence</h3>
-                    <p class="muted" data-i18n="features.incidents.text">The driver reports what happens during the trip, and the supervisor receives it with everything needed to follow up.</p>
+                    <p class="muted" data-i18n="features.incidents.text">The supervisor and the delivery point report what happens during the trip, with everything needed to follow up.</p>
                     <ul class="check-list">
                         <li data-i18n="features.incidents.one">Damaged product, broken bottles, missing units and delays</li>
                         <li data-i18n="features.incidents.two">Photographic evidence attached to the stop where it happened</li>
@@ -172,43 +173,69 @@
                 <article class="card card--interactive">
                     <h3 data-i18n="segments.supervisor.title">Logistics supervisors</h3>
                     <p class="muted" data-i18n="segments.supervisor.text">Follow the whole fleet on one board, react to alerts while the truck is still on the road and close incidents with a record behind them.</p>
-                    <a class="button button--primary" href="https://bottletrack.vercel.app/monitoring" data-i18n="segments.supervisor.cta">Monitor your fleet</a>
+                    <a class="button button--primary" href="https://frontend-web-aplication.vercel.app/monitoring" data-i18n="segments.supervisor.cta">Monitor your fleet</a>
                 </article>
                 <article class="card card--interactive">
-                    <h3 data-i18n="segments.driver.title">Drivers and delivery crews</h3>
-                    <p class="muted" data-i18n="segments.driver.text">Report a broken bottle, a missing unit or a delay from the phone, attach the evidence and move on to the next stop.</p>
-                    <a class="button button--primary" href="https://bottletrack.vercel.app/incidents/new" data-i18n="segments.driver.cta">Report an incident</a>
+                    <h3 data-i18n="segments.deliveryPoint.title">Corner stores and minimarkets</h3>
+                    <p class="muted" data-i18n="segments.deliveryPoint.text">Know when your order arrives, confirm what you received and report a broken bottle or a missing unit at the moment of delivery.</p>
+                    <a class="button button--primary" href="https://frontend-web-aplication.vercel.app/tracking" data-i18n="segments.deliveryPoint.cta">Track your orders</a>
                 </article>
                 <article class="card card--interactive">
                     <h3 data-i18n="segments.manager.title">Distribution managers</h3>
                     <p class="muted" data-i18n="segments.manager.text">Measure product loss, delivery compliance and recurring failures to decide where the operation needs to change.</p>
-                    <a class="button button--primary" href="https://bottletrack.vercel.app/analytics" data-i18n="segments.manager.cta">See the indicators</a>
+                    <a class="button button--primary" href="https://frontend-web-aplication.vercel.app/analytics" data-i18n="segments.manager.cta">See the indicators</a>
                 </article>
             </div>
         </div>
     </section>
 
-    <section class="section section--muted" id="product-video" aria-labelledby="video-title">
+    <section class="section section--muted" id="product" aria-labelledby="product-title">
         <div class="container stack">
-            <p class="eyebrow" data-i18n="video.eyebrow">About the product</p>
-            <h2 id="video-title" data-i18n="video.title">See BottleTrack in two minutes</h2>
-            <p class="lead" data-i18n="video.lead">A short walkthrough of the business model and the main features of the platform.</p>
-            <div class="video-frame" data-video-placeholder>
-                <p class="muted" data-i18n="video.placeholder">The About the Product video will be embedded here.</p>
+            <p class="eyebrow" data-i18n="product.eyebrow">About the product</p>
+            <h2 id="product-title" data-i18n="product.title">See BottleTrack at work</h2>
+            <p class="lead" data-i18n="product.lead">The analytics dashboard, the transport operations and the incident follow-up, as the team sees them every day.</p>
+            <div class="product-screenshots">
+                <img src="assets/img/dashboard_bottletrack.png" alt="BottleTrack dashboard with the daily operation indicators">
+                <img src="assets/img/operaciones_bottletrack.png" alt="BottleTrack list of transport operations">
+                <img src="assets/img/incidencias_bottletrack.png" alt="BottleTrack list of reported incidents">
             </div>
         </div>
     </section>
 
-    <section class="section" id="team" aria-labelledby="team-title">
-        <div class="container stack">
-            <p class="eyebrow" data-i18n="team.eyebrow">The team</p>
-            <h2 id="team-title" data-i18n="team.videoTitle">Meet the team</h2>
-            <p class="lead" data-i18n="team.videoLead">How CodeCrafters worked through the project, told by the team itself.</p>
-            <div class="video-frame" data-video-placeholder>
-                <p class="muted" data-i18n="team.videoPlaceholder">The About the Team video will be embedded here.</p>
+    <section class="section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact">
+            <div class="stack">
+                <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+                <h2 id="contact-title" data-i18n="contact.title">Tell us about your distribution</h2>
+                <p class="lead" data-i18n="contact.lead">Leave your details and the CodeCrafters team will get in touch to show you how BottleTrack fits your routes.</p>
             </div>
+            <form class="card contact__form" data-contact-form>
+                <div class="field">
+                    <label for="contact-name" data-i18n="contact.name">Full name</label>
+                    <input class="input" id="contact-name" name="name" type="text" autocomplete="name" required>
+                </div>
+                <div class="field">
+                    <label for="contact-company" data-i18n="contact.company">Company</label>
+                    <input class="input" id="contact-company" name="company" type="text" autocomplete="organization" required>
+                </div>
+                <div class="field">
+                    <label for="contact-segment" data-i18n="contact.segment">I am a</label>
+                    <select class="input" id="contact-segment" name="segment" required>
+                        <option value="distributor" data-i18n="contact.segment.distributor">Beverage distributor</option>
+                        <option value="supervisor" data-i18n="contact.segment.supervisor">Fleet supervisor</option>
+                        <option value="delivery-point" data-i18n="contact.segment.deliveryPoint">Corner store or minimarket</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="contact-message" data-i18n="contact.message">Message</label>
+                    <textarea class="input" id="contact-message" name="message" rows="4" required></textarea>
+                </div>
+                <button class="button button--primary" type="submit" data-i18n="contact.submit">Send message</button>
+                <p class="contact__status" role="status" data-contact-status hidden data-i18n="contact.sent">Thank you. The team will contact you soon.</p>
+            </form>
         </div>
     </section>
+
 </main>
 
 <footer class="site-footer">
@@ -223,7 +250,15 @@
         <nav class="site-footer__nav" aria-label="Footer">
             <a href="#features" data-i18n="nav.features">Features</a>
             <a href="#segments" data-i18n="nav.segments">Who it is for</a>
+            <a href="#contact" data-i18n="nav.contact">Contact</a>
             <a href="terms-of-service.html" data-i18n="footer.terms">Terms and conditions of service</a>
+        </nav>
+        <nav class="site-footer__nav" aria-labelledby="footer-social-title">
+            <p class="site-footer__title" id="footer-social-title" data-i18n="footer.follow">Follow us</p>
+            <a href="https://www.linkedin.com/company/codecrafters-bottletrack" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://www.instagram.com/bottletrack.pe" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.facebook.com/bottletrack.pe" target="_blank" rel="noopener">Facebook</a>
+            <a href="https://github.com/1ASI0730-2620-8084-CodeCrafters" target="_blank" rel="noopener">GitHub</a>
         </nav>
     </div>
     <div class="container site-footer__legal">
