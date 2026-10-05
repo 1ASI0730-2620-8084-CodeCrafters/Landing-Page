@@ -209,3 +209,34 @@
         grid-template-columns: 1fr;
     }
 }
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-12);
+    align-items: start;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+}
+
+.contact__form .input {
+    width: 100%;
+    font-family: inherit;
+}
+
+.contact__status {
+    color: var(--success-strong);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-semibold);
+}
+
+@media (max-width: 48rem) {
+    .contact {
+        grid-template-columns: 1fr;
+        gap: var(--space-8);
+    }
+}

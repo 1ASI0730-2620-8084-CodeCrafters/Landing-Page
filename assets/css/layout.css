@@ -146,6 +146,12 @@
     text-decoration: none;
 }
 
+.site-footer__title {
+    color: var(--background);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-semibold);
+}
+
 .site-footer__nav a:hover {
     color: var(--background);
 }
