@@ -37,6 +37,10 @@ assets/
 
 Open `index.html` directly in a browser, or serve the folder with any static server.
 
+## Version
+
+Current release: `v1.0.0`.
+
 ## Deployment
 
 Published on Netlify at https://1asi0730-2620-8084-codecrafters.netlify.app/ from the `main` branch. Netlify publishes a new version after every integration into `main`.
